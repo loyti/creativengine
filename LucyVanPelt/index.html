@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>President Lucy</title>
+
+    
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico"/>
+    <link rel="icon" type="image/png" href="./Images/favicon.png"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="lucy.css">
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="lucy.js"></script>
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!-- BootStrap v.3.3.7 Support -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <nav id="homeNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="Images/LucyLogo.png" width=25em></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">About<span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Press Releases</a></li>
+                            <li><a href="#">Stops Around the States</a></li>
+                            <li><a href="#">Fact Checking</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Newsletter Archive</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Federal Agencies</a></li>
+                            <li><a href="#">Grants</a></li>
+                            <li><a href="#">Flag Requests</a></li>
+                            <li><a href="#">Military Recognition</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Jobs</a></li>
+                        </ul>
+                    <li><a href="#">Contact</a></li>
+                    </li>
+                </ul>
+                <form class="navbar-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="homeLanding" class="container-fluid">
+        <div id="homeLandingRow" class="row-fluid">
+            <div class="col-md-3">
+                <img id="USAFlag" src="Images/usaflag.png" alt="USA Flag" title="USA Flag" width="100px">
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-3">
+                <div class="lucyWho">
+                    <h1>Lucy</h1>
+                    <h2>Van Pelt</h2>
+                    <h4>President of the Unites States</h4>
+                    <img src="Images/LucyLogo.png" alt="Lucy Logo" title="Lucy Logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="lucyCommitments" class="container-fluid">
+        <div  class="row-fluid">
+            <div class="col-md-12">
+                <h2 id="aboutLucyCommitments">Lucy's Commitments</h2>
+            </div>
+        </div>
+    </div>
+    <div id="aboutLucy" class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-4">
+                <a href="#"><img id="aboutLucyImg" src="Images/lucyPsychiatricHelp.jpg" alt="Lucy Loves" title="Lucy Loves"></a>
+                <p class="aboutLucy">Self starter and former small business owner as a licensed clinical psychiatrist, Lucy has helped man-kind in more ways that anyone could count.</p>
+                <a href="#" class="lucyCTA"><p>Learn more about growing your business.</p></a>
+            </div>
+            <div class="col-md-4">
+                <a href="#"><img id="aboutLucyImg" src="Images/LucyDirector.png" alt="Lucy Loves" title="Lucy Loves"></a>
+                <blockquote class="aboutLucy">"I never made a mistake in my life. I thought I did once, but I was wrong."<footer><cite title="Lucy Van Pelt">Lucy Van Pelt</cite></footer></blockquote>
+                <a href="#" class="lucyCTA"><p>Your next job is only one click away!</p></a>
+            </div>
+            <div class="col-md-4">
+                <a href="#"><img id="aboutLucyImg" src="Images/LucyLovesCharlie.png" alt="Lucy Loves" title="Lucy Loves"></a>
+                <p class="aboutLucy">Lucy is dedicated to supporting all American Families and People of all walks of life. Her lifetime of service is recognized by many including her best friend Charlie Brown.</p>
+                <a href="#" class="lucyCTA"><p>Learn more about grants and local support groups.</p></a>
+            </div>
+        </div>
+    </div>
+    <div id="lucyPR" class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-12">
+                <h2 id="aboutLucyPR">Fact Checked Press Releases</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-12">
+                <h2 id="aboutLucy"></h2>
+            </div>
+            <div class="col-md-6">
+                <a class="lucyCTA" href="#"><h3>Protecting Women</h3></a>
+                <video id="lucyVideo" width="auto" height="auto" controls title="Lucy Helps Women" alt="Lucy Helps Women">
+                    <source src="Images/lucyMen.mp4" type="video/mp4">
+                </video>
+                <p class="aboutLucy">Lucy has been more active than any one else in pursuing the fight to end all types of assualt against Women</p>
+                <a class="lucyCTA" href="#"><h3>Action Items</h3></a>
+                <a href="#"><img id="lucyVideo" src="Images/LucyTenor.gif" alt="Lucy Actions" title="Lucy Actions"></a>
+                <p class="aboutLucy">Don't delay another moment. Take action and let the good times roll.</p>
+                <a class="lucyCTA" href="#"><h3>Helping Animals</h3></a>
+                <a href="#"><img id="lucyVideo" src="Images/LucyLoveAnimals.png" alt="Lucy Actions" title="Lucy Actions"></a>
+                <p class="aboutLucy">See more of Lucy's work with the wonderful pets and animals of the world.</p>
+            </div>
+            <div class="col-md-6">
+                <a class="lucyCTA" href="#"><h3>Twitter Updates from POTUS</h3></a>
+                <a href="https://twitter.com/potus?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @potus</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class="twitter-timeline" data-height="600" data-theme="dark" href="https://twitter.com/POTUS?ref_src=twsrc%5Etfw">Tweets by POTUS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <h2 class="lucyCTA">Find Lucy on Social Media</h2>
+                <a href="http://twitter.com" target="_blank" alt="Lucy Twitter" title="Lucy Twitter"><img id="lucySocialIcon" src="Images/twitterIcon.png"></a>
+                <a href="http://facebook.com" target="_blank" alt="Lucy Facebook" title="Lucy Facebook"><img id="lucySocialIcon" src="Images/facebookicon.png"></a>
+                <a href="http://pinterest.com" target="_blank" alt="Lucy Pinterest" title="Lucy Pinterest"><img id="lucySocialIcon" src="Images/pinterestIcon.png"></a>
+                <a href="http://instagram.com" target="_blank" alt="Lucy Instagram" title="Lucy Instagram"><img id="lucySocialIcon" src="Images/instagramIcon.png"></a>
+            </div>
+        </div>
+    </div>
+    <div id="lucyLocations" class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-12">
+                <h2 id="aboutLucyLocation">Visit Lucy's Offices</h2>
+            </div>
+        </div>
+    </div>
+    <div id="lucyOffices" class="container-fluid">
+        <div class="row-fluid">
+            <div id="lucyOfficeLocation" class="col-md-3">
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//The+White+House,+1600+Pennsylvania+Ave+NW,+Washington,+DC+20500/@38.8976763,-77.0387185,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!2m2!1d-77.0365298!2d38.8976763!3e0" target="_blank"><h3>The Whitehouse</h3></a>
+                <a href="https://www.google.com/maps/dir//The+White+House,+1600+Pennsylvania+Ave+NW,+Washington,+DC+20500/@38.8976763,-77.0387185,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!2m2!1d-77.0365298!2d38.8976763!3e0" target="_blank"><img id="lucyLocationImg" src="Images/lucyWhiteHouse.jpg" alt="Lucy White House" title="Lucy White House"></a>
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//The+White+House,+1600+Pennsylvania+Ave+NW,+Washington,+DC+20500/@38.8976763,-77.0387185,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!2m2!1d-77.0365298!2d38.8976763!3e0" target="_blank"><p>1600 Pennsylvania Avenue NW</p></a>
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//The+White+House,+1600+Pennsylvania+Ave+NW,+Washington,+DC+20500/@38.8976763,-77.0387185,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!2m2!1d-77.0365298!2d38.8976763!3e0" target="_blank"><p>Washington, D.C. 20500</p></a>
+                <a class="lucyCTA" href="tel:202-456-1111" target="_blank"><p>(202) 456-1111</p></a>
+            </div>
+            <div id="lucyOfficeLocation" class="col-md-3">
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//Pine+Tree+Ln,+Shakopee,+MN+55379/@44.7828103,-93.4982441,14.06z/data=!4m9!4m8!1m0!1m5!1m1!1s0x87f61741c4bd815f:0xd8657b247cfad15!2m2!1d-93.4811578!2d44.781944!3e0?hl=en&authuser=0" target="_blank"><h3>Home Town Office</h3></a>
+                <a href="https://www.google.com/maps/dir//Pine+Tree+Ln,+Shakopee,+MN+55379/@44.7828103,-93.4982441,14.06z/data=!4m9!4m8!1m0!1m5!1m1!1s0x87f61741c4bd815f:0xd8657b247cfad15!2m2!1d-93.4811578!2d44.781944!3e0?hl=en&authuser=0" target="_blank"><img id="lucyLocationImg" src="Images/lucyHomeTown.png" alt="Lucy Home Town" title="Lucy Home Town"></a>
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//Pine+Tree+Ln,+Shakopee,+MN+55379/@44.7828103,-93.4982441,14.06z/data=!4m9!4m8!1m0!1m5!1m1!1s0x87f61741c4bd815f:0xd8657b247cfad15!2m2!1d-93.4811578!2d44.781944!3e0?hl=en&authuser=0" target="_blank"><p>1700 Pine Tree Lane</p></a>
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//Pine+Tree+Ln,+Shakopee,+MN+55379/@44.7828103,-93.4982441,14.06z/data=!4m9!4m8!1m0!1m5!1m1!1s0x87f61741c4bd815f:0xd8657b247cfad15!2m2!1d-93.4811578!2d44.781944!3e0?hl=en&authuser=0" target="_blank"><p>Hennepin County, MN 55111</p></a>
+                <a class="lucyCTA" href="tel:555-555-1111" target="_blank"><p>(555) 555-1111</p></a>
+            </div>
+            <div id="lucyOfficeLocation" class="col-md-3">
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//Empire+State+Building,+350+5th+Ave,+New+York,+NY+10118/@40.7484405,-73.9878531,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89c259a9b3117469:0xd134e199a405a163!2m2!1d-73.9856644!2d40.7484405!3e0" target="_blank"><h3>New York Office</h3></a>
+                <a href="https://www.google.com/maps/dir//Empire+State+Building,+350+5th+Ave,+New+York,+NY+10118/@40.7484405,-73.9878531,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89c259a9b3117469:0xd134e199a405a163!2m2!1d-73.9856644!2d40.7484405!3e0" target="_blank"><img id="lucyLocationImg" src="Images/lucyNY.jpg" alt="Lucy New York" title="Lucy New York"></a>
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//Empire+State+Building,+350+5th+Ave,+New+York,+NY+10118/@40.7484405,-73.9878531,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89c259a9b3117469:0xd134e199a405a163!2m2!1d-73.9856644!2d40.7484405!3e0" target="_blank"><p>350 5th Ave</p></a>
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//Empire+State+Building,+350+5th+Ave,+New+York,+NY+10118/@40.7484405,-73.9878531,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89c259a9b3117469:0xd134e199a405a163!2m2!1d-73.9856644!2d40.7484405!3e0" target="_blank"><p>New York, NY 10118</p></a>
+                <a class="lucyCTA" href="tel:212-736-3100" target="_blank"><p>(212) 736-3100</p></a>
+            </div>
+            <div id="lucyOfficeLocation" class="col-md-3">
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//Griffith+Observatory,+2800+E+Observatory+Rd,+Los+Angeles,+CA+90027/@34.1180062,-118.3011017,18.3z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80c2bf61e9d408cb:0x73ff07b1c2d6dadc!2m2!1d-118.3003935!2d34.1184341!3e0" target="_blank"><h3>Los Angeles Office</h3></a>
+                <a href="https://www.google.com/maps/dir//Griffith+Observatory,+2800+E+Observatory+Rd,+Los+Angeles,+CA+90027/@34.1180062,-118.3011017,18.3z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80c2bf61e9d408cb:0x73ff07b1c2d6dadc!2m2!1d-118.3003935!2d34.1184341!3e0" target="_blank"><img id="lucyLocationImg" src="Images/lucyGPObservatory.jpg" alt="Lucy Los Angeles" title="Lucy Los Angeles"></a>
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//Griffith+Observatory,+2800+E+Observatory+Rd,+Los+Angeles,+CA+90027/@34.1180062,-118.3011017,18.3z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80c2bf61e9d408cb:0x73ff07b1c2d6dadc!2m2!1d-118.3003935!2d34.1184341!3e0" target="_blank"><p>2800 E Observatory Road</p></a>
+                <a class="lucyCTA" href="https://www.google.com/maps/dir//Griffith+Observatory,+2800+E+Observatory+Rd,+Los+Angeles,+CA+90027/@34.1180062,-118.3011017,18.3z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80c2bf61e9d408cb:0x73ff07b1c2d6dadc!2m2!1d-118.3003935!2d34.1184341!3e0" target="_blank"><p>Los Angeles, CA 90027</p></a>
+                <a class="lucyCTA" href="tel:213-473-0800" target="_blank"><p>(213) 473-0800</p></a>
+            </div>
+        </div>
+    </div>
+    <div id="lucyFooter" class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a class="lucyCTA" href="#"><h4>About</h4></a>
+                <a class="lucyCTA" href="#"><h4>News</h4></a>
+                <a class="lucyCTA" href="#"><h4>Help</h4></a>
+                <a class="lucyCTA" href="#"><h4>Contact</h4></a>
+            </div>
+            <div class="col-md-2">
+                <a href="mailto:presidentlucy@usa.com" target="_blank"><img id="lucyFooterImg" src="Images/email.png" alt="Email Lucy" title="Email Lucy"></a>
+            </div>
+            <div class="col-md-2">
+                <a href="tel:202-456-1111" target="_blank"><img id="lucyFooterImg" src="Images/phone.png" alt="Call Lucy" title="Call Lucy"></a>
+            </div>
+            <div class="col-md-2">
+                <img id="lucyPoliParty" src="Images/LucyPoliticalParty.png">
+            </div>
+            <div class="col-md-2">
+                <img id="lucyPoliParty" src="Images/LucyLoves.png">
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="col-md-12">
+                <p class="lucyCTA">Lucy for President &copy; 2024 <a class="lucyCTA" href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Pinterest js -->
+    <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+</body>
+
+</html>
