@@ -15,6 +15,11 @@ app.set('view engine', 'ejs');
 app.get('/', function (request, response) {
     response.render('index');
 });
+
+app.get('/lucy', function(request, response) {
+    response.render('lucy');
+});
+
 app.get('/kelvin', function (request, response) {
     response.render("kelvin");
 });

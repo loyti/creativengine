@@ -1,0 +1,335 @@
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+#homeNav, .nav.navbar-nav a {
+    background: rgba(0,0,0,.8);
+    color: rgba(255,255,255,.91);
+}
+#homeNav a {
+    color: rgba(255,255,255,.95);
+    font-weight: bolder;
+    text-align: center;
+}
+
+#homeNav a:hover {
+    color: rgba(255,0,0,.95)
+}
+
+#homeLanding {
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    background: url('./Images/lucyMountRushmore.jpg');
+    background-position: 50% 5%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    min-height: 50em;
+}
+
+@media screen and (max-width: 499px) and (min-width: 250px) {
+    
+    #homeLanding {
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        background: url('./Images/lucyMountRushmore.jpg');
+        background-position: 50% 15%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        min-height: 50em;
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 500px) {
+    
+    #homeLanding {
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        background: url('./Images/lucyMountRushmore.jpg');
+        background-position: 50% 25%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        min-height: 50em;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 800px) {
+
+    #homeLanding {
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        background: url('./Images/lucyMountRushmore.jpg');
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        min-height: 50em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #homeLanding {
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 0em;
+        background: url('./Images/lucyMountRushmore.jpg');
+        background-position: 50% 40%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        min-height: 50em;
+    }
+}
+
+#homeLandingRow {
+    margin: 4em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    min-height: 50em;
+}
+
+.lucyWho, .lucyWho>img {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    color: rgba(255,255,255,.95);
+    margin: 0em auto 0em auto;
+    padding: 0em auto 0em auto;
+}
+
+.lucyWho>h1, .lucyWho>h2, .lucyWho>h4 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+
+#USAFlag {
+    margin: 5em auto 0em auto;
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lucyCommitments {
+    background: url('./Images/LucySafety.png');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 10em;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0em;
+}
+
+#aboutLucyCommitments {
+    color: rgba(255,255,255,.91);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    display: block;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+    font-size: 32px;
+    background-color: rgba(0,0,0,.39);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#aboutLucy {
+    margin: 2em auto 1em auto;
+
+}
+.aboutLucy {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 2em 1em .25em 1em;
+}
+
+#aboutLucyImg {
+    /* height: 15em; */
+    min-height: 15em;
+    max-height: 15em;
+    background: rgba(255,255,255,.95);
+    display: block;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background-repeat: no-repeat;
+    margin: 1em auto .25em auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#lucyPR {
+    background: url('./Images/lucyNews.jpg');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 10em;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5em;
+}
+
+#aboutLucyPR {
+    color: rgba(255,255,255,.91);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    display: block;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+    font-size: 32px;
+    background-color: rgba(0,0,0,.39);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lucyLandingImg {
+    width: 50%;
+    max-width: 25em;
+    height: auto;
+    background-repeat: no-repeat;
+    margin: 1em 1em .25em auto;
+    right: 1em;
+}
+
+#homeImg {
+    margin: 0em 0em 0em 0em;
+    width: 100%;
+    height: auto;
+    opacity: .6;
+    z-index: -10;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lucyCTA {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    display: block;
+    text-align: center;
+    margin: 1em .2em 1em .2em;
+    color: rgba(255,0,0,.95);
+    font-size: 18px;
+}
+
+#lucyVideo {
+    display: block;
+    margin: 1em auto 1em auto;
+    max-width: 275px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.twitter-follow-button {
+    display: block;
+    text-align: center;
+    margin: 0em auto .5em auto;
+}
+
+.twitter-timeline {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+#lucyLocations {
+    background: url('./Images/lucyLocationMap.png');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 10em;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5em;
+}
+
+#aboutLucyLocation {
+    color: rgba(255,255,255,.91);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    display: block;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+    font-size: 32px;
+    background-color: rgba(0,0,0,.39);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lucyOffices {
+    margin: 5em auto 5em auto;
+}
+
+#lucyOfficeLocation {
+    margin: 2em auto 2em auto;
+}
+
+#lucyLocationImg {
+    display: block;
+    text-align: center;
+    margin: 0em auto 0em auto;
+    max-height: 15em;
+    min-height: 15em;
+    max-width: 15em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lucySocial {
+    background: url('./Images/LucyDetermined.png');
+    background-attachment: fixed;
+    background-position: 95% 75%;
+    background-repeat: no-repeat;
+    min-height: 10em;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5em;
+}
+
+#aboutLucySocial {
+    color: rgba(255,255,255,.91);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    display: block;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+    font-size: 32px;
+    background-color: rgba(0,0,0,.39);
+}
+
+#lucySocialCTA {
+    margin: 5em auto 5em auto;
+    padding: 1em auto 1em auto;
+}
+
+#lucySocialIcon {
+    display: block;
+    margin: 2em auto 2em auto;
+    padding: .5em auto .5em auto;
+    text-align: center;
+}
+
+#lucyThatsIt {
+    max-width: 15em;
+    margin: 2em auto 2em auto;
+    text-align: center;
+    display: block;
+}
+
+#lucyFooter {
+    min-height: 10em;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0em;
+}
+
+#lucyFooterImg {
+    max-width: 10em;
+    /* position: absolute; */
+    text-align: center;
+    display: block;
+    margin: 1em auto 1em auto; 
+}
+#lucyPoliParty {
+    text-align: center;
+    display: block; 
+    margin: 1em auto 1em auto;
+    max-width: 15em;
+}
