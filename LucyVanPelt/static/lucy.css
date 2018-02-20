@@ -265,9 +265,23 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 #lucyOfficeLocation {
     margin: 2em auto 2em auto;
+    
 }
 
 #lucyLocationImg {
+    display: block;
+    text-align: center;
+    margin: 0em auto 0em auto;
+    max-height: 15em;
+    min-height: 15em;
+    max-width: 15em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lucyLocationImgF{
+    background: #fff;
     display: block;
     text-align: center;
     margin: 0em auto 0em auto;
@@ -362,7 +376,13 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 #lucyFooter {
+    margin-top: 0em;
+    background: url('./Images/usaflag.png');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     min-height: 10em;
+    background-size: cover;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 0em;
