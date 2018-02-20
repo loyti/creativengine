@@ -452,8 +452,8 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 #lucyPoliParty {
     text-align: center;
-    display: block; 
     margin: 1em auto 1em auto;
     max-width: 15em;
     max-height: 15em;
+    vertical-align: middle;
 }
