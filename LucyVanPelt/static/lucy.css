@@ -360,3 +360,100 @@ body, h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     margin: 1em auto 1em auto;
 }
+
+#lucyFooter {
+    min-height: 10em;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0em;
+}
+
+#lucyCommitmentsFooter {
+    background: url('./Images/LucySafety.png');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 10em;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0em;
+}
+
+#aboutLucyCommitmentsFooter {
+    color: rgba(255,0,0,.91);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    display: block;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+    font-size: 32px;
+    background-color: rgba(0,0,0,.39);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lucyPRFooter {
+    background: url('./Images/lucyNews.jpg');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 10em;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5em;
+}
+
+#aboutLucyPRFooter {
+    color: rgba(255,0,0,.91);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    display: block;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+    font-size: 32px;
+    background-color: rgba(0,0,0,.39);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#locationsFooter {
+    background: url('./Images/lucyLocationMap.png');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 10em;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5em;
+}
+
+#aboutLocationFooter {
+    color: rgba(255,255,255,.91);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    display: block;
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+    font-size: 32px;
+    background-color: rgba(0,0,0,.39);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footerNav {
+    display: inline;
+}
+
+#lucyFooterImg {
+    max-width: 10em;
+    text-align: center;
+    display: block;
+    margin: 1em auto 1em auto; 
+}
+#lucyPoliParty {
+    text-align: center;
+    display: block; 
+    margin: 1em auto 1em auto;
+    max-width: 15em;
+    max-height: 15em;
+}
