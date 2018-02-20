@@ -320,9 +320,16 @@ body, h1, h2, h3, h4, h5, h6, p {
     margin-top: 0em;
 }
 
+/* #footerCTA {
+    font-size: 20px;
+} */
+
+#footerNav {
+    display: inline;
+}
+
 #lucyFooterImg {
     max-width: 10em;
-    /* position: absolute; */
     text-align: center;
     display: block;
     margin: 1em auto 1em auto; 
@@ -331,5 +338,5 @@ body, h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     display: block; 
     margin: 1em auto 1em auto;
-    max-width: 15em;
+    max-width: 10em;
 }
