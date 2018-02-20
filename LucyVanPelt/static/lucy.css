@@ -22,8 +22,8 @@ body, h1, h2, h3, h4, h5, h6, p {
     background-position: 50% 5%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: auto 100%;
-    min-height: 50em;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 @media screen and (max-width: 499px) and (min-width: 250px) {
@@ -35,8 +35,8 @@ body, h1, h2, h3, h4, h5, h6, p {
         background-position: 50% 15%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: auto 100%;
-        min-height: 50em;
+        background-size: cover;
+        min-height: 100vh;
     }
 }
 
@@ -49,8 +49,8 @@ body, h1, h2, h3, h4, h5, h6, p {
         background-position: 50% 25%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: auto 100%;
-        min-height: 50em;
+        background-size: cover;
+        min-height: 100vh;
     }
 }
 
@@ -63,8 +63,8 @@ body, h1, h2, h3, h4, h5, h6, p {
         background-position: 50% 50%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: 100% auto;
-        min-height: 50em;
+        background-size: cover;
+        min-height: 100vh;
     }
 }
 
@@ -76,15 +76,16 @@ body, h1, h2, h3, h4, h5, h6, p {
         background-position: 50% 40%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: 100% auto;
-        min-height: 50em;
+        background-size: cover;
+        min-height: 100vh;
     }
 }
 
 #homeLandingRow {
     margin: 4em 0em 0em 0em;
     padding: 0em 0em 0em 0em;
-    min-height: 50em;
+    min-height: 100vh;
+    /* min-height: 100%; */
 }
 
 .lucyWho, .lucyWho>img {
