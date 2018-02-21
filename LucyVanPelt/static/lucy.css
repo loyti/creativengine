@@ -3,21 +3,53 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 #homeNav, .nav.navbar-nav a {
     background: rgba(0,0,0,.8);
+    -o-background: rgba(0,0,0,.8);
+    -ms-background: rgba(0,0,0,.8);
+    -moz-background: rgba(0,0,0,.8);
+    -webkit-background: rgba(0,0,0,.8);
     color: rgba(255,255,255,.91);
+    -o-color: rgba(255,255,255,.91);
+    -ms-color: rgba(255,255,255,.91);
+    -moz-color: rgba(255,255,255,.91);
+    -webkit-color: rgba(255,255,255,.91);
 }
 #homeNav a {
-    color: rgba(255,255,255,.95);
+    color: rgba(255,255,255,.91);
+    -o-color: rgba(255,255,255,.91);
+    -ms-color: rgba(255,255,255,.91);
+    -moz-color: rgba(255,255,255,.91);
+    -webkit-color: rgba(255,255,255,.91);
     font-weight: bolder;
+    -o-font-weight: bolder;
+    -ms-font-weight: bolder;
+    -moz-font-weight: bolder;
+    -webkit-font-weight: bolder;
     text-align: center;
+    -o-text-align: center;
+    -ms-text-align: center;
+    -moz-text-align: center;
+    -webkit-text-align: center;
 }
 
 #homeNav a:hover {
-    color: rgba(255,0,0,.95)
+    color: rgba(255,0,0,.95);
+    -o-color: rgba(255,0,0,.95);
+    -ms-color: rgba(255,0,0,.95);
+    -moz-color: rgba(255,0,0,.95);
+    -webkit-color: rgba(255,0,0,.95);
 }
 
 #homeLanding {
     margin: 0em 0em 0em 0em;
+    -o-margin: 0em 0em 0em 0em;
+    -ms-margin: 0em 0em 0em 0em;
+    -moz-margin: 0em 0em 0em 0em;
+    -webkit-margin: 0em 0em 0em 0em;
     padding: 0em 0em 0em 0em;
+    -o-padding: 0em 0em 0em 0em;
+    -ms-padding: 0em 0em 0em 0em;
+    -moz-padding: 0em 0em 0em 0em;
+    -webkit-padding: 0em 0em 0em 0em;
     background: url('./Images/lucyMountRushmore.jpg');
     background-position: 50% 5%;
     background-attachment: fixed;
