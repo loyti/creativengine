@@ -373,15 +373,17 @@ body, h1, h2, h3, h4, h5, h6, p {
     /* position: absolute; */
     text-align: center;
     display: block;
-    margin: 1em auto 1em auto; 
+    margin: 1em auto 1em auto;
     filter: drop-shadow(5px 5px 5px #222);
 }
+
 #lucyPoliParty {
     text-align: center;
     display: block; 
     margin: 1em auto 1em auto;
     max-width: 15em;
-    filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.25));
+    
 }
 
 #lucyPin {
@@ -496,12 +498,4 @@ body, h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     display: block;
     margin: 1em auto 1em auto; 
-}
-
-#lucyPoliParty {
-    text-align: center;
-    margin: 1em auto 1em auto;
-    max-width: 15em;
-    max-height: 15em;
-    vertical-align: middle;
 }
