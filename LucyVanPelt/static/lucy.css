@@ -51,11 +51,35 @@ body, h1, h2, h3, h4, h5, h6, p {
     -moz-padding: 0em 0em 0em 0em;
     -webkit-padding: 0em 0em 0em 0em;
     background: url('./Images/lucyMountRushmore.jpg');
+    -o-background: url('./Images/lucyMountRushmore.jpg');
+    -ms-background: url('./Images/lucyMountRushmore.jpg');
+    -moz-background: url('./Images/lucyMountRushmore.jpg');
+    -webkit-background: url('./Images/lucyMountRushmore.jpg');
     background-position: 50% 5%;
+    -o-background-position: 50% 5%;
+    -ms-background-position: 50% 5%;
+    -moz-background-position: 50% 5%;
+    -webkit-background-position: 50% 5%;
     background-attachment: fixed;
+    -o-background-attachment: fixed;
+    -ms-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -webkit-background-attachment: fixed;
     background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    -ms-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
     background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     min-height: 100vh;
+    -o-min-height: 100vh;
+    -ms-min-height: 100vh;
+    -moz-min-height: 100vh;
+    -webkit-min-height: 100vh;
 }
 
 @media screen and (max-width: 499px) and (min-width: 250px) {
@@ -76,13 +100,45 @@ body, h1, h2, h3, h4, h5, h6, p {
     
     #homeLanding {
         margin: 0em 0em 0em 0em;
+        -o-margin: 0em 0em 0em 0em;
+        -ms-margin: 0em 0em 0em 0em;
+        -moz-margin: 0em 0em 0em 0em;
+        -webkit-margin: 0em 0em 0em 0em;
         padding: 0em 0em 0em 0em;
+        -o-padding: 0em 0em 0em 0em;
+        -ms-padding: 0em 0em 0em 0em;
+        -moz-padding: 0em 0em 0em 0em;
+        -webkit-padding: 0em 0em 0em 0em;
         background: url('./Images/lucyMountRushmore.jpg');
+        -o-background: url('./Images/lucyMountRushmore.jpg');
+        -ms-background: url('./Images/lucyMountRushmore.jpg');
+        -moz-background: url('./Images/lucyMountRushmore.jpg');
+        -webkit-background: url('./Images/lucyMountRushmore.jpg');
         background-position: 50% 25%;
+        -o-background-position: 50% 25%;
+        -ms-background-position: 50% 25%;
+        -moz-background-position: 50% 25%;
+        -webkit-background-position: 50% 25%;
         background-attachment: fixed;
+        -o-background-attachment: fixed;
+        -ms-background-attachment: fixed;
+        -moz-background-attachment: fixed;
+        -webkit-background-attachment: fixed;
         background-repeat: no-repeat;
+        -o-background-repeat: no-repeat;
+        -ms-background-repeat: no-repeat;
+        -moz-background-repeat: no-repeat;
+        -webkit-background-repeat: no-repeat;
         background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
         min-height: 100vh;
+        -o-min-height: 100vh;
+        -ms-min-height: 100vh;
+        -moz-min-height: 100vh;
+        -webkit-min-height: 100vh;
     }
 }
 
@@ -90,13 +146,45 @@ body, h1, h2, h3, h4, h5, h6, p {
 
     #homeLanding {
         margin: 0em 0em 0em 0em;
+        -o-margin: 0em 0em 0em 0em;
+        -ms-margin: 0em 0em 0em 0em;
+        -moz-margin: 0em 0em 0em 0em;
+        -webkit-margin: 0em 0em 0em 0em;
         padding: 0em 0em 0em 0em;
+        -o-padding: 0em 0em 0em 0em;
+        -ms-padding: 0em 0em 0em 0em;
+        -moz-padding: 0em 0em 0em 0em;
+        -webkit-padding: 0em 0em 0em 0em;
         background: url('./Images/lucyMountRushmore.jpg');
+        -o-background: url('./Images/lucyMountRushmore.jpg');
+        -ms-background: url('./Images/lucyMountRushmore.jpg');
+        -moz-background: url('./Images/lucyMountRushmore.jpg');
+        -webkit-background: url('./Images/lucyMountRushmore.jpg');
         background-position: 50% 50%;
+        -o-background-position: 50% 50%;
+        -ms-background-position: 50% 50%;
+        -moz-background-position: 50% 50%;
+        -webkit-background-position: 50% 50%;
         background-attachment: fixed;
+        -o-background-attachment: fixed;
+        -ms-background-attachment: fixed;
+        -moz-background-attachment: fixed;
+        -webkit-background-attachment: fixed;
         background-repeat: no-repeat;
+        -o-background-repeat: no-repeat;
+        -ms-background-repeat: no-repeat;
+        -moz-background-repeat: no-repeat;
+        -webkit-background-repeat: no-repeat;
         background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
         min-height: 100vh;
+        -o-min-height: 100vh;
+        -ms-min-height: 100vh;
+        -moz-min-height: 100vh;
+        -webkit-min-height: 100vh;
     }
 }
 
