@@ -22,7 +22,7 @@ body, h1, h2, h3, h4, h5, h6, p {
     background-position: 50% 5%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -35,12 +35,12 @@ body, h1, h2, h3, h4, h5, h6, p {
         background-position: 50% 15%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: auto 100%;
+        background-size: cover;
         min-height: 100vh;
     }
 }
 
-@media screen and (max-width: 799px) and (min-width: 500px) {
+@media screen and (max-width: 1070px) and (min-width: 500px) {
     
     #homeLanding {
         margin: 0em 0em 0em 0em;
@@ -49,12 +49,12 @@ body, h1, h2, h3, h4, h5, h6, p {
         background-position: 50% 25%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: auto 100%;
+        background-size: cover;
         min-height: 100vh;
     }
 }
 
-@media screen and (max-width: 1199px) and (min-width: 800px) {
+@media screen and (max-width: 1199px) and (min-width: 1071px) {
 
     #homeLanding {
         margin: 0em 0em 0em 0em;
@@ -63,7 +63,7 @@ body, h1, h2, h3, h4, h5, h6, p {
         background-position: 50% 50%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: 100% auto;
+        background-size: cover;
         min-height: 100vh;
     }
 }
@@ -76,7 +76,7 @@ body, h1, h2, h3, h4, h5, h6, p {
         background-position: 50% 40%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: 100% auto;
+        background-size: cover;
         min-height: 100vh;
     }
 }
@@ -84,7 +84,8 @@ body, h1, h2, h3, h4, h5, h6, p {
 #homeLandingRow {
     margin: 4em 0em 0em 0em;
     padding: 0em 0em 0em 0em;
-    min-height: 50em;
+    min-height: 100vh;
+    /* min-height: 100%; */
 }
 
 .lucyWho, .lucyWho>img {
@@ -106,6 +107,13 @@ body, h1, h2, h3, h4, h5, h6, p {
     display: block;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#POTUSSeal {
+    margin: 5em auto 0em auto;
+    display: block;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 #lucyCommitments {
@@ -217,6 +225,11 @@ body, h1, h2, h3, h4, h5, h6, p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.pinterest-timeline {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .twitter-follow-button {
     display: block;
     text-align: center;
@@ -225,7 +238,7 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 .twitter-timeline {
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #lucyLocations {
@@ -258,6 +271,7 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 #lucyOfficeLocation {
     margin: 2em auto 2em auto;
+    
 }
 
 #lucyLocationImg {
@@ -270,6 +284,31 @@ body, h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     border-radius: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lucyLocationImgF{
+    background: #fff;
+    display: block;
+    text-align: center;
+    margin: 0em auto 0em auto;
+    max-height: 15em;
+    min-height: 15em;
+    max-width: 15em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lucyLocationImgHome {
+    display: block;
+    text-align: center;
+    margin: 0em auto 0em auto;
+    max-height: 15em;
+    min-height: 15em;
+    max-width: 15em;
+    text-align: center;
+    border-radius: 1em;
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 #lucySocial {
@@ -306,6 +345,15 @@ body, h1, h2, h3, h4, h5, h6, p {
     text-align: center;
 }
 
+#lucySocialImg {
+    transform: scaleX(-1);
+    text-align: center;
+    margin: 1em auto 1em auto;
+    max-width: 15em;
+    max-height: 15em;
+    vertical-align: middle;
+}
+
 #lucyThatsIt {
     max-width: 15em;
     margin: 2em auto 2em auto;
@@ -315,6 +363,41 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 #lucyFooter {
     min-height: 10em;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0em;
+}
+
+#lucyFooterImg {
+    max-width: 10em;
+    /* position: absolute; */
+    text-align: center;
+    display: block;
+    margin: 1em auto 1em auto; 
+    filter: drop-shadow(5px 5px 5px #222);
+}
+#lucyPoliParty {
+    text-align: center;
+    display: block; 
+    margin: 1em auto 1em auto;
+    max-width: 15em;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+#lucyPin {
+    display: block;
+    text-align: center;
+    margin: 1em auto 1em auto;
+}
+
+#lucyFooter {
+    margin-top: 0em;
+    background: url('./Images/usaflag.png');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 10em;
+    background-size: auto 100%;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 0em;
@@ -404,8 +487,8 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 #lucyPoliParty {
     text-align: center;
-    display: block; 
     margin: 1em auto 1em auto;
-    max-width: 3em;
-    height: 5em;
+    max-width: 15em;
+    max-height: 15em;
+    vertical-align: middle;
 }
